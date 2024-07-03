@@ -37,7 +37,7 @@
             font-family: "Lato", sans-serif; }
     </style>
 </head>
-<body class="lato-font">
+<body class="lato-font mx-5 lg:mx-auto">
     <header class="mt-14 container max-auto">
         <section class="mb-14">
             <div class="navbar bg-[#F85559] text-white rounded-full">
@@ -76,9 +76,9 @@
                       <li><a>All Fruits</a></li>
                   </ul>
                 </div>
-                <div class="ml-44 w-[263px]">
+                <div class="ml-5 lg:ml-44 w-auto lg:w-[263px]">
                   <img src="images/logo.png" alt="" class="h-[60px] w-[54px]">
-                  <h2 class="text-4xl font-bold">Fruit Burst</h2>
+                  <h2 class="text-xl lg:text-4xl font-bold">Fruit Burst</h2>
                 </div>
                 <div class="navbar-end">
                     <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto rounded-full mr-12" />
@@ -86,15 +86,15 @@
               </div>
         </section>
         <section class="mb-36">
-          <div class="carousel w-full">
+          <div class="carousel w-auto lg:w-full">
             <div id="slide1" class="carousel-item relative w-full">
               <img
                 src="images/banner1.png"
                 class="w-full" />
               <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                 <a href="#slide4" class="btn btn-circle border-none text-white bg-[#121212] my-48">❮</a>
-                <div class="text-center space-y-6">
-                  <h2 class="text-7xl text-white font-extrabold">Exotic tastes at your <br>doorstep</h2>
+                <div class="text-center space-y-20 lg:space-y-6">
+                  <h2 class="text-xl lg:text-7xl text-white font-extrabold">Exotic tastes at your <br>doorstep</h2>
                 <p class="text-xl text-white font-medium">We supply highly quality organic products</p>
                 <button class="btn bg-[#F85559] text-white border-none">Shop Now</button>
                 </div>
@@ -144,7 +144,7 @@
               </div>
             </div>
           </div>
-          <div class="relative -top-24 flex max-w-6xl max-auto mx-28 justify-around bg-[#FFFFFF] rounded-lg shadow-lg py-12">
+          <div class="hidden relative -top-24 lg:flex max-w-6xl max-auto mx-28 justify-around bg-[#FFFFFF] rounded-lg shadow-lg py-12">
             <div class="text-center">
               <img src="images/fruit1.png" alt="">
               <h4>Strawberry</h4>
@@ -170,13 +170,13 @@
     </header>
     <main class="mt-14 container max-auto">
       <section class="mb-12">
-        <div class="flex justify-between">
-          <div class="w-[615px]">
+        <div class="flex flex-col lg:flex-row lg:justify-between">
+          <div class="w-auto lg:w-[615px]">
             <h2 class="text-5xl font-extrabold mb-6">Deal of the day</h2>
             <p class="text-base font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
           <div>
-            <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+            <div class="grid auto-cols-max grid-flow-col lg:gap-5 text-center">
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl">
                   <span style="--value:15;"></span>:
@@ -206,7 +206,7 @@
         </div>
       </section>
       <section class="mb-24 text-center">
-        <div class="flex gap-6 justify-between">
+        <div class="flex flex-col lg:flex-row gap-6 justify-between">
           <!-- card 1 -->
         <div class="card rounded-lg w-[342px] border border-solid border-[rgba(18, 18, 18, 0.1)]">
           <figure class="px-10 pt-10">
@@ -363,12 +363,12 @@
               src="images/team.png" class="w-full"
               alt="Shoes" />
           </figure>
-          <div class="card-body py-28 px-60  ">
+          <div class="card-body py-28 px-5 lg:px-60  ">
             <div class="space-y-8 text-center">
               <h2 class="card text-5xl font-extrabold text-white">Meet the team section</h2>
             <p class="text-base font-medium text-white">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
-            <div class="mt-12 flex justify-between">
+            <div class="mt-12 flex flex-col lg:flex-row items-center lg:justify-between">
               <!-- card-1 -->
               <div class="card w-[159px]">
                 <figure>
@@ -452,15 +452,15 @@
         </div> -->
       </section>
       <section class="mb-36  text-center">
-        <h2 class="text-5xl font-extrabold mb-6">
+        <h2 class="text-xl lg:text-5xl font-extrabold mb-6">
           Why Choose Us
         </h2>
         <p class="text-base font-medium">
           Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.
         </p>
-        <div class="flex flex-row mt-12">
-          <div class="space-y-12 mr-12">
-            <div class="flex flex-row w-[420px] text-left gap-6">
+        <div class="flex flex-col items-center lg:flex-row mt-12">
+          <div class="space-y-12 mr-auto lg:mr-12">
+            <div class="flex flex-col lg:flex-row w-[420px] text-center lg:text-left gap-6">
               <div>
                 <i class="fa-solid fa-people-group p-5 bg-[#1212121A] rounded-full"></i>
               </div>
@@ -474,7 +474,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex flex-row w-[420px] text-left gap-6">
+            <div class="flex flex-col lg:flex-row w-[420px] text-center lg:text-left gap-6">
               <div>
                 <i class="fa-solid fa-heart p-5 bg-[#1212121A] rounded-full"></i>
               </div>
@@ -488,7 +488,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex flex-row w-[420px] text-left gap-6">
+            <div class="flex flex-col lg:flex-row w-[420px] text-center lg:text-left gap-6">
               <div>
                 <i class="fa-solid fa-gifts p-5 bg-[#1212121A] rounded-full"></i>
               </div>
@@ -507,8 +507,8 @@
             <img src="images/whychoose1.png" alt="">
           </div>
           <div>
-            <div class="space-y-12 ml-12">
-              <div class="flex flex-row w-[420px] text-right gap-6">
+            <div class="space-y-12 lg:ml-12">
+              <div class="flex flex-col lg:flex-row w-[420px] text-center lg:text-right gap-6">
                 <div class="flex flex-col">
                   <h2 class="text-2xl font-extrabold">
                     Integrated Supplier
@@ -522,7 +522,7 @@
                   <i class="fa-solid fa-people-group p-5 bg-[#1212121A] rounded-full"></i>
                 </div>
               </div>
-              <div class="flex flex-row w-[420px] text-right gap-6">
+              <div class="flex flex-col lg:flex-row w-[420px] text-center lg:text-right gap-6">
                 <div class="flex flex-col">
                   <h2 class="text-2xl font-extrabold">
                     Sustainable Practice
@@ -536,7 +536,7 @@
                   <i class="fa-solid fa-people-group p-5 bg-[#1212121A] rounded-full"></i>
                 </div>
               </div>
-              <div class="flex flex-row w-[420px] text-right gap-6">
+              <div class="flex flex-col lg:flex-row w-[420px] text-center lg:text-right gap-6">
                 <div class="flex flex-col">
                   <h2 class="text-2xl font-extrabold">
                     The Benefits Only
@@ -555,18 +555,18 @@
         </div>
       </section>
     </main>
-    <footer class="bg-[#121212] py-36 px-auto flex flex-col text-center text-white">
+    <footer class="bg-[#121212] py-8 lg:py-36 px-auto flex flex-col text-center text-white">
       <div class="flex justify-center gap-5">
         <img src="images/logo.png" alt="">
-        <h2 class="text-5xl font-bold">Fruit Burst</h2>
+        <h2 class="text-xl lg:text-5xl font-bold">Fruit Burst</h2>
       </div>
-      <div class="flex gap-14 mx-auto mt-12">
-        <h4 class="text-center text-lg font-semibold">Home</h4>
-        <h4 class="text-lg font-semibold">About Us</h4>
-        <h4 class="text-lg font-semibold">Shop</h4>
-        <h4 class="text-lg font-semibold">All Fruits</h4>
-        <h4 class="text-lg font-semibold">Support</h4>
-        <h4 class="text-lg font-semibold">My Account</h4>
+      <div class="grid grid-cols-4 lg:flex text-center items-center gap:1 lg:gap-14 mx-4 lg:mx-auto mt-12">
+        <h4 class="text-xl lg:text-lg font-semibold">Home</h4>
+        <h4 class="text-xl lg:text-lg font-semibold">About Us</h4>
+        <h4 class="text-xl lg:text-lg font-semibold">Shop</h4>
+        <h4 class="text-xl lg:text-lg font-semibold">All Fruits</h4>
+        <h4 class="text-xl lg:text-lg font-semibold col-start-2">Support</h4>
+        <h4 class="text-xl lg:text-lg font-semibold col-start-3">My Account</h4>
       </div>
       <div class="mt-12 gap-10 flex justify-center">
         <i class="fa-brands fa-twitter"></i>
